@@ -34,5 +34,44 @@ public class Main {
         System.out.println("en büyük sayı: "+enBuyukSayi);
 
 
+        char grade ='A';
+
+        switch (grade){
+            case 'A':
+                System.out.println("mükemmel: Geçtiniz");
+                break;
+            case 'B':
+                System.out.println("çok güzel: Geçtiniz");
+                break;
+            case 'C':
+                System.out.println("iyi: Geçtiniz");
+                break;
+            case 'D':
+                System.out.println("fena değil: Geçtiniz");
+                break;
+            case 'F':
+                System.out.println("maalesef kaldınız");
+                break;
+            default:
+                System.out.println("geçersiz not girdiniz");
+        }
+        System.out.println("-------------------------------------------------------");
+        for (int i=2;i<10;i+=2){
+            System.out.println(i);
+        }
+        System.out.println("Döngü bitti");
+
+        //while
+        int i =1;
+        while (i<10){
+            System.out.println(i);
+            i++;
+        }
+        System.out.println("while döngüsü bitti");
+
+
+
+
+
     }
 }

@@ -137,7 +137,105 @@ public class Main {
             }
             System.out.println("");
         }
+        System.out.println("              ");
+        String mesaj = "Bugün hava çok güzel.";
+        System.out.println(mesaj);
 
+        System.out.println("Eleman sayısı: "+ mesaj.length());
+        System.out.println("5.eleman: "+ mesaj.charAt(4));
+        System.out.println(mesaj.concat(" yaşasın!"));
+        System.out.println(mesaj.startsWith("B"));
+        System.out.println(mesaj.endsWith("."));
+        char[] karakterler = new char[5];
+        mesaj.getChars(0,5,karakterler,0);
+        System.out.println(karakterler);
+        System.out.println(mesaj.indexOf("av"));
+        System.out.println(mesaj.lastIndexOf("a"));
+
+        String yeniMesaj = mesaj.replace(' ', '-');
+        System.out.println(yeniMesaj);
+        System.out.println(mesaj.substring(2,5));
+
+        for (String kelime: mesaj.split("-")){
+            System.out.println(kelime);
+        }
+        System.out.println(mesaj.toLowerCase());
+        System.out.println(mesaj.toUpperCase());
+        System.out.println(mesaj.trim());
+
+        int number = 25;
+        int remainder = number % 2 ;
+        System.out.println(remainder);
+        for(int as=1;as<=25;as++){
+            remainder = number % as;
+            if(remainder==0){
+                if ((as!=25) && (as!=1)){
+                    System.out.println("asal böleni: "+ as);
+                }
+            }
+        }
+
+        char harf = 'I';
+
+        switch (harf){
+            case'A':
+            case'I':
+            case'O':
+            case'U':
+                System.out.println("Kalın sesli harf.");
+                break;
+            default:
+                System.out.println("İnce sesli harf.");
+        }
+        //6 --> 1,2,3
+        //28 --> 1,2,4,7,14
+        int namber = 28;
+        int total1 = 0;
+
+        for (int ii=1; ii<namber;ii++){
+            if(namber % ii ==0){
+                total1 = total1 + ii;
+            }
+        }
+        if(total1 == namber){
+            System.out.println("Mükemmel sayıdır.");
+        }
+        else{
+            System.out.println("Mükemmel sayı değildir.");
+        }
+        //220-284
+
+        int sayia1 = 220;
+        int sayia2 = 284;
+        int toplam1 = 0;
+        int toplam2 = 0;
+        for (int iii=1;iii<sayia1;iii++){
+            if(sayia1 % iii ==0){
+                toplam1 = toplam1 +iii;
+            }
+        }
+
+        for (int iii=1;iii<sayia2;iii++){
+            if(sayia2 % iii ==0){
+                toplam2 = toplam2 +iii;
+            }
+        }
+
+        if (sayia1==toplam2 && sayia2==toplam1){
+            System.out.println("Bu iki sayi arkadaştır");
+        }
+        else{
+            System.out.println("Bu iki sayi arkadaş değildir");
+        }
+
+        int[] sayilar = new int[]{1,2,5,7,9,0};
+        int aranacak = 5;
+
+        for (int sayi: sayilar){
+            if(sayi==aranacak){
+                System.out.println("Sayi mevcuttur.");
+            }
+        }
 
 
 

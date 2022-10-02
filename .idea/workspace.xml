@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa87c409-604a-456a-8344-6e1f56800df4" name="Changes" comment="12.videoya kadar örnekler yapıldı.">
+    <list default="true" id="fa87c409-604a-456a-8344-6e1f56800df4" name="Changes" comment="16.videoya kadar örnekler yapıldı.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -25,13 +25,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664389085056</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="16.videoya kadar örnekler yapıldı.">
+      <created>1664498494260</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664498494260</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,7 +109,8 @@
     <MESSAGE value="zalim commit" />
     <MESSAGE value="10.videoya kadar örnekler yapıldı." />
     <MESSAGE value="12.videoya kadar örnekler yapıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="12.videoya kadar örnekler yapıldı." />
+    <MESSAGE value="16.videoya kadar örnekler yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="16.videoya kadar örnekler yapıldı." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
